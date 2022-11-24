@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 21 17:33:56 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>124 seconds (124099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pom_Testcases.DWS_Login_Test.TC01()'><b>TC01</b><br>Test class: Pom_Testcases.DWS_Login_Test<br>Parameters: rajkb123@gmail.com, raj1234</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert &quot;AssignmentOperator Expression&quot; to complete Assignment
+	Syntax error, insert &quot;;&quot; to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at Pom_Testcases.DWS_Login_Test.TC01(DWS_Login_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1063723524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1063723524'><pre>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert &quot;AssignmentOperator Expression&quot; to complete Assignment
+	Syntax error, insert &quot;;&quot; to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at Pom_Testcases.DWS_Login_Test.TC01(DWS_Login_Test.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Pom_Testcases.DWS_Login_Test@40a4337a</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Login_Test.TC01()'><b>TC01</b><br>Test class: Pom_Testcases.DWS_Login_Test<br>Parameters: rajkb123@gmail.com, rajkb9741</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert &quot;AssignmentOperator Expression&quot; to complete Assignment
+	Syntax error, insert &quot;;&quot; to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at Pom_Testcases.DWS_Login_Test.TC01(DWS_Login_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1876390738", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1876390738'><pre>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert &quot;AssignmentOperator Expression&quot; to complete Assignment
+	Syntax error, insert &quot;;&quot; to complete BlockStatements
+	The left-hand side of an assignment must be a variable
+
+	at Pom_Testcases.DWS_Login_Test.TC01(DWS_Login_Test.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Pom_Testcases.DWS_Login_Test@40a4337a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pom_Testcases.DWS_Giftcards_Test.TC11()'><b>TC11</b><br>Test class: Pom_Testcases.DWS_Giftcards_Test</td>
+<td></td>
+<td>3</td>
+<td>Pom_Testcases.DWS_Giftcards_Test@1165b38</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Register_Test.TC02()'><b>TC02</b><br>Test class: Pom_Testcases.DWS_Register_Test</td>
+<td></td>
+<td>1</td>
+<td>Pom_Testcases.DWS_Register_Test@43bc63a3</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_ShoppingCart_Test.Tc05()'><b>Tc05</b><br>Test class: Pom_Testcases.DWS_ShoppingCart_Test</td>
+<td></td>
+<td>3</td>
+<td>Pom_Testcases.DWS_ShoppingCart_Test@38425407</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Computer_Test.TC06()'><b>TC06</b><br>Test class: Pom_Testcases.DWS_Computer_Test</td>
+<td></td>
+<td>1</td>
+<td>Pom_Testcases.DWS_Computer_Test@54d9d12d</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Book_Test.Tc04()'><b>Tc04</b><br>Test class: Pom_Testcases.DWS_Book_Test</td>
+<td></td>
+<td>3</td>
+<td>Pom_Testcases.DWS_Book_Test@22ff4249</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Digital_Test.TC09()'><b>TC09</b><br>Test class: Pom_Testcases.DWS_Digital_Test</td>
+<td></td>
+<td>3</td>
+<td>Pom_Testcases.DWS_Digital_Test@4c12331b</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Jewelry_Test.TC10()'><b>TC10</b><br>Test class: Pom_Testcases.DWS_Jewelry_Test</td>
+<td></td>
+<td>3</td>
+<td>Pom_Testcases.DWS_Jewelry_Test@6a6cb05c</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Search_Test.TC03()'><b>TC03</b><br>Test class: Pom_Testcases.DWS_Search_Test</td>
+<td></td>
+<td>1</td>
+<td>Pom_Testcases.DWS_Search_Test@5b12b668</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Subscribe_Test.TC13()'><b>TC13</b><br>Test class: Pom_Testcases.DWS_Subscribe_Test<br>Parameters: rajyenekal@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>Pom_Testcases.DWS_Subscribe_Test@6025e1b6</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Advsearch_Test.TC12()'><b>TC12</b><br>Test class: Pom_Testcases.DWS_Advsearch_Test<br>Parameters: mobiles, 9, 3, 10000, 30000</td>
+<td></td>
+<td>2</td>
+<td>Pom_Testcases.DWS_Advsearch_Test@2d1ef81a</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Electronics_Test.TC07()'><b>TC07</b><br>Test class: Pom_Testcases.DWS_Electronics_Test</td>
+<td></td>
+<td>1</td>
+<td>Pom_Testcases.DWS_Electronics_Test@327514f</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Vote_Test.TC14()'><b>TC14</b><br>Test class: Pom_Testcases.DWS_Vote_Test</td>
+<td></td>
+<td>0</td>
+<td>Pom_Testcases.DWS_Vote_Test@4c402120</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Favtag_Test.TC15()'><b>TC15</b><br>Test class: Pom_Testcases.DWS_Favtag_Test</td>
+<td></td>
+<td>2</td>
+<td>Pom_Testcases.DWS_Favtag_Test@702657cc</td></tr>
+<tr>
+<td title='Pom_Testcases.DWS_Apparel_Test.TC08()'><b>TC08</b><br>Test class: Pom_Testcases.DWS_Apparel_Test</td>
+<td></td>
+<td>3</td>
+<td>Pom_Testcases.DWS_Apparel_Test@3c46e67a</td></tr>
+</table><p>
+</body>
+</html>

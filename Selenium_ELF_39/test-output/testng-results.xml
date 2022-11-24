@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T17:36:09 IST" name="Default suite" finished-at="2022-11-21T17:36:20 IST" duration-ms="10507">
+    <groups>
+    </groups>
+    <test started-at="2022-11-21T17:36:09 IST" name="Default test" finished-at="2022-11-21T17:36:20 IST" duration-ms="10507">
+      <class name="Pom_Testcases.DWS_Login_Test">
+        <test-method is-config="true" signature="launch()[pri:0, instance:Pom_Testcases.DWS_Login_Test@639c2c1d]" started-at="2022-11-21T17:36:09 IST" name="launch" finished-at="2022-11-21T17:36:16 IST" duration-ms="6190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="TC01(java.lang.String,java.lang.String)[pri:0, instance:Pom_Testcases.DWS_Login_Test@639c2c1d]" started-at="2022-11-21T17:36:16 IST" name="TC01" data-provider="login" finished-at="2022-11-21T17:36:18 IST" duration-ms="1676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajkb123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rajkb9741]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method signature="TC01(java.lang.String,java.lang.String)[pri:0, instance:Pom_Testcases.DWS_Login_Test@639c2c1d]" started-at="2022-11-21T17:36:18 IST" name="TC01" data-provider="login" finished-at="2022-11-21T17:36:19 IST" duration-ms="1142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajkb123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Pom_Testcases.DWS_Login_Test@639c2c1d]" started-at="2022-11-21T17:36:19 IST" name="teardown" finished-at="2022-11-21T17:36:20 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Pom_Testcases.DWS_Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
